@@ -1,0 +1,335 @@
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* rtl:raw:
+  right: 0;
+  */
+  bottom: 0;
+  /* rtl:remove */
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.bg-cover{
+  background-image: url('https://p.qpic.cn/mwegame/0/a071198461916e539215919e79ece430/');
+  height: 750px;
+  background-size: cover;
+  background-position: center center;
+}
+.bg-covers{
+  background-image: url('https://upload.cc/i1/2021/11/17/BbJSc7.png');
+  background-repeat: repeat-x;
+  background-color:#b8c6df;
+  
+}
+a{
+  color: white;
+  
+}
+.NavEffect:hover{
+  
+  text-shadow : 0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211);
+  border-radius : 30%;
+  color: white;
+  text-decoration:none;
+}
+.Menuffect:hover{
+    text-decoration:none;
+    font-size: 18px;
+}
+.nott{
+  background-color: transparent;
+  position: relative;
+
+}
+.nott .nottb{
+  position: absolute;
+  top: -5px;
+  right: 20px;
+}
+.ListGroupLeft:hover{
+
+box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47)
+}
+.ListGroupLeft.active{
+  border: 1px solid white;
+  color: #000000;
+  background: #ffffff;
+  box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47)
+}
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s
+}
+.page-enter, .page-leave-to {
+  opacity: 0
+}
+.page-enter-to, .page-leave {
+  opacity: 1
+}
+.SizeTyping{
+  font-size: 20px;
+}
+.typing {
+  text-align: center;
+    width: 10em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 5s steps(11, end), blink-caret .75s step-end infinite;
+    overflow: hidden;
+    
+}
+/* 列印效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 11em; }
+}
+/* 游標閃啊閃 */
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+.bgTyping{
+  color: white;
+  background-color: #000000a2;
+  border-radius : 15px;
+  width: 380px;
+  
+  
+}
+ body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 260px;
+        padding-bottom: 25px;
+        
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+   
+
+  .bg-Separate{
+  background-image: url('https://upload.cc/i1/2021/11/24/v4BpSe.png');
+  background-repeat: repeat-x;
+  height: 32px;
+  width: 100%;
+  }
+  .bgSwiper{
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .trImg{
+    overflow: hidden;
+   
+  }
+  
+  .textPosi{
+    color: white;
+    margin-left: 1000px;
+    font-size: 50px;
+    background-color: #000000a2;
+    border-radius : 15px;
+    padding: 20px;
+  }
+  .textPosi {
+  text-align: center;
+    width: 2em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 5s steps(2, end), blink-caret .75s step-end infinite;
+    overflow: hidden;
+    
+}
+/* 列印效果 */
+@keyframes textPosi {
+  from { width: 0; }
+  to { width: 2em; }
+}
+/* 游標閃啊閃 */
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+.aboutH h2{
+  border-bottom: 3px solid #db3428;
+}
+.iconb{
+  animation-name: slideOutDown;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+@keyframes iconb{
+    from{
+        top:0;
+    }
+    to{
+        bottom:200px;
+    }
+}
+.animate__slideInLeft{
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+  background-image: url('https://upload.cc/i1/2021/11/25/e3SLIm.png');
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@keyframes animate__slideInLeft{
+    from{
+        left:0%;
+    }
+    to{
+        right:100%;
+    }
+}
+.animate__slideInRight{
+  animation-name: slideInRight;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+  background-image: url('https://upload.cc/i1/2021/11/25/TG8o3Y.png');
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@keyframes animate__slideInRight{
+    from{
+        right:0%;
+    }
+    to{
+        left:100%;
+    }
+}
+@media (max-width: 992px) { 
+  
+  .animateTWO{
+    display: none;
+  }
+ }
+.animate__fadeIn{
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+@keyframes animate__fadeIn{
+    from{
+        left:0%;
+    }
+    to{
+        right:0%;
+    }
+}
+.bg-new{
+  background-color: rgba(12, 18, 109, 0.815);
+  
+}
+.bgGIF{
+  background-image: url('https://upload.cc/i1/2021/11/25/cQotj8.gif');
+  background-repeat: repeat-x;
+}
+.footerbg{
+  background-image: url('https://upload.cc/i1/2021/11/25/GtyJAc.png');
+  height: 200px;
+}
