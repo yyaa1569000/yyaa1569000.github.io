@@ -111,7 +111,7 @@
 </nav>
   <div class="container-fluid pt-5 bg-covers">
     
-    <loading :active.sync="isLoading"><img src="https://upload.cc/i1/2021/11/23/F6EUeV.gif" alt="" width="150px"></loading>
+    <loading :active.sync="isLoading"><img src="@/image/F6EUeV.gif" alt="" width="150px"></loading>
 
     <div class="container pt-5">
       <nav aria-label="breadcrumb ">

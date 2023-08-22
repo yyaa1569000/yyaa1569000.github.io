@@ -1,6 +1,6 @@
 <template>
   <div>
-     <loading :active.sync="isLoading"><img src="https://upload.cc/i1/2021/11/23/F6EUeV.gif" alt="" width="150px"></loading>
+     <loading :active.sync="isLoading"><img src="@/image/F6EUeV.gif" alt="" width="150px"></loading>
     <form class="form-signin" @submit.prevent="signin">
       <h1 class="h3 mb-3 fw-normal">請先登入</h1>
 

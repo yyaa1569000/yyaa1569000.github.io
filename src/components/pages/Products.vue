@@ -1,6 +1,6 @@
 <template>
 <div>
-  <loading :active.sync="isLoading"><img src="https://upload.cc/i1/2021/11/23/F6EUeV.gif" alt="" width="150px"></loading>
+  <loading :active.sync="isLoading"><img src="@/image/F6EUeV.gif" alt="" width="150px"></loading>
   <nav class="navbar navbar-expand-lg navbar-light pb-2 fixed-top" style="background-color: rgba(17, 17, 17, 0.75)">
     <div class="pr-5">
       <router-link to="/home">

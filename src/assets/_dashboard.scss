@@ -105,17 +105,17 @@ body {
   background-position: center center;
 }
 .bg-covers{
-  background-image: url('https://upload.cc/i1/2021/11/17/BbJSc7.png');
+  background-image: url('../src/image/BbJSc7.png');
   background-repeat: repeat-x;
   background-color:#b8c6df;
-  
+
 }
 a{
   color: white;
-  
+
 }
 .NavEffect:hover{
-  
+
   text-shadow : 0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211),0px 0px 20px rgb(103, 177, 211);
   border-radius : 30%;
   color: white;
@@ -164,7 +164,7 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
     border-right: 2px solid transparent;
     animation: typing 5s steps(11, end), blink-caret .75s step-end infinite;
     overflow: hidden;
-    
+
 }
 /* 列印效果 */
 @keyframes typing {
@@ -181,8 +181,8 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
   background-color: #000000a2;
   border-radius : 15px;
   width: 380px;
-  
-  
+
+
 }
  body {
         background: #fff;
@@ -196,7 +196,7 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
         width: 100%;
         height: 260px;
         padding-bottom: 25px;
-        
+
     }
     .swiper-slide {
         background-position: center;
@@ -204,10 +204,10 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
         width: 100%;
         height: 100%;
     }
-   
+
 
   .bg-Separate{
-  background-image: url('https://upload.cc/i1/2021/11/24/v4BpSe.png');
+  background-image: url('../src/image/v4BpSe.png');
   background-repeat: repeat-x;
   height: 32px;
   width: 100%;
@@ -217,12 +217,12 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   .trImg{
     overflow: hidden;
-   
+
   }
-  
+
   .textPosi{
     color: white;
     margin-left: 1000px;
@@ -238,7 +238,7 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
     border-right: 2px solid transparent;
     animation: typing 5s steps(2, end), blink-caret .75s step-end infinite;
     overflow: hidden;
-    
+
 }
 /* 列印效果 */
 @keyframes textPosi {
@@ -270,7 +270,7 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
   animation-name: slideInLeft;
   animation-duration: 2s;
   animation-iteration-count:1;
-  background-image: url('../image/001.png');
+  background-image: url('../src/image/001.png');
   height: 600px;
   background-size: cover;
   background-position: center center;
@@ -288,7 +288,7 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
   animation-name: slideInRight;
   animation-duration: 2s;
   animation-iteration-count:1;
-  background-image: url('https://upload.cc/i1/2021/11/25/TG8o3Y.png');
+  background-image: url('../src/image/002.png');
   height: 600px;
   background-size: cover;
   background-position: center center;
@@ -302,8 +302,8 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
         left:100%;
     }
 }
-@media (max-width: 992px) { 
-  
+@media (max-width: 992px) {
+
   .animateTWO{
     display: none;
   }
@@ -323,13 +323,33 @@ box-shadow : 0px 0px 10px rgb(216, 38, 47),0px 0px 10px rgb(216, 38, 47),0px 0px
 }
 .bg-new{
   background-color: rgba(12, 18, 109, 0.815);
-  
+
 }
 .bgGIF{
-  background-image: url('https://upload.cc/i1/2021/11/25/cQotj8.gif');
+  background-image: url('../src/image/cQotj8.gif');
   background-repeat: repeat-x;
 }
 .footerbg{
-  background-image: url('https://upload.cc/i1/2021/11/25/GtyJAc.png');
+  background-image: url('../src/image/GtyJAc.png');
   height: 200px;
 }
+.oDY0H2{
+  background-image: url('../src/image/oDY0H2.jpg');
+}
+.cjNVEf{
+  background-image: url('../src/image/cjNVEf.png');
+}
+.eWmH4L{
+  background-image: url('../src/image/eWmH4L.jpg');
+}
+.JsavmI{
+  background-image: url('../src/image/JsavmI.png');
+}
+.Mwpxv3{
+  background-image: url('../src/image/Mwpxv3.jpg');
+}
+.GlRzUT{
+  background-image: url('../src/image/GlRzUT.png');
+}
+
+

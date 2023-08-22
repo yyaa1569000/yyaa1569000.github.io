@@ -1,7 +1,9 @@
 <template>
     <div class="trImg">
+
+     <!-- <loading :active.sync="isLoading"><img src="https://upload.cc/i1/2021/11/23/F6EUeV.gif" alt="" width="150px"></loading> -->
+     <loading :active.sync="isLoading"><img src="@/image/F6EUeV.gif" alt="" width="150px"></loading>
      
-     <loading :active.sync="isLoading"><img src="https://upload.cc/i1/2021/11/23/F6EUeV.gif" alt="" width="150px"></loading>
         <nav class="navbar navbar-expand-lg navbar-light pb-2 fixed-top"  style="background-color: rgba(17, 17, 17, 0.75)">
     <div class="pr-5">
       <router-link to="/home">
@@ -12,15 +14,15 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
+
     <ul class="navbar-nav mr-auto pr-5">
       <li class="nav-item active pr-5 ">
-        
+
         <router-link class="nav-link text-white NavEffect" to="/home"><i class="fas fa-home pr-1"></i>首頁
             </router-link>
       </li>
       <div class="nav-item pr-5">
-        
+
         <router-link class="nav-link text-white NavEffect" to="/customer_order"><i class="fab fa-shopify pr-1"></i>購物去
             </router-link>
       </div>
@@ -46,7 +48,7 @@
         <router-link class="nav-link text-white" to="/admin/coupons"><a href="">優惠券</a>
             </router-link>
       </li> -->
-      
+
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
@@ -67,17 +69,17 @@
       <button class="btn btn-sm nott NavEffect" data-toggle="dropdown"><i class="fas fa-shopping-cart text-white fa-2x pr-3"></i>
       <span class="nottb badge badge-pill badge-danger" v-if="carts.length!=0">{{ carts.length }}</span>
       </button>
-      
+
       <div class="dropdown-menu" v-if="carts.length!=0">
         <div class="row pl-4 d-flex justify-content-start" style="min-width: 295px">
-          
+
           <h5 class="font-weight-bold">已選擇的商品</h5>
           <div class="border-bottom"></div>
-          
-          <table class="table-sm" v-for="item in carts" :key="item.id"> 
-            
+
+          <table class="table-sm" v-for="item in carts" :key="item.id">
+
             <tbody>
-              
+
               <tr class="d-flex border-bottom">
                 <td>
                 <button type="button" class="btn btn-outline-danger btn-sm"
@@ -97,24 +99,24 @@
         <h5 class="font-weight-bold text-center mt-1"><router-link  to="/shopping_cart"><a class="text-success" href="">結帳去</a>
             </router-link></h5>
       </div>
-     
+
         <router-link to="/customer_order"  class="Menuffect dropdown-menu font-weight-bold text-center my-2" v-else>
         快去買東西啦 !!
         </router-link>
 
-      
+
       <button class="btn btn-sm nott NavEffect"><a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square text-white fa-2x pr-3"></i></a></button>
       <button class="btn btn-sm nott NavEffect"><a target="blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square text-white fa-2x pr-3"></i></a></button>
       <button class="btn btn-sm nott NavEffect"><a target="blank" href="https://twitter.com/"><i class="fab fa-twitter-square text-white fa-2x pr-3"></i></a></button>
       </div>
-      
+
     </form>
   </div>
 </nav>
         <div class="container-fluid bg-cover d-flex align-items-center">
                 <div class="container">
                   <div class="row">
-                    
+
                     <div class="col-12 d-flex justify-content-center">
                       <h3 class="text-center bgTyping py-3">
                           <div>開放世界ARPG。</div>
@@ -122,7 +124,7 @@
                       </h3>
                       </div>
                   </div>
-                  
+
             </div>
         </div>
         <div class="container-fluid" style="position: relative;">
@@ -135,7 +137,7 @@
           <router-link class="btn btn-danger btn-lg" to="/customer_order" style="position: absolute;top:-100px">查看所有商品
             </router-link>
             </div>
-            
+
         </div>
 <div class="container text-center pt-5 pb-3 d-flex justify-content-center">
   <div class="aboutH">
@@ -153,22 +155,22 @@
 
   </div>
 
-       </div> 
+       </div>
           <div class="bg-Separate"></div>
-        
+
  <!-- Swiper -->
- 
+
     <div class="swiper">
-      
+
         <div class="swiper-wrapper">
-          <router-link class="swiper-slide trImg" to="/one" style="background-image:url('https://upload.cc/i1/2021/11/24/oDY0H2.jpg');">
-          <div class="bgSwiper" style="background-image:url('https://upload.cc/i1/2021/11/25/cjNVEf.png')"></div>
+          <router-link class="swiper-slide trImg oDY0H2" to="/one">
+          <div class="bgSwiper cjNVEf"></div>
           </router-link>
-          <router-link class="swiper-slide trImg" to="/spear" style="background-image:url('https://upload.cc/i1/2021/11/24/eWmH4L.jpg')">
-          <div class="bgSwiper" style="background-image:url('https://upload.cc/i1/2021/11/25/JsavmI.png')"></div>
+          <router-link class="swiper-slide trImg eWmH4L" to="/spear">
+          <div class="bgSwiper JsavmI"></div>
           </router-link>
-          <router-link class="swiper-slide trImg" to="/two" style="background-image:url('https://upload.cc/i1/2021/11/24/Mwpxv3.jpg')">
-          <div class="bgSwiper" style="background-image:url('https://upload.cc/i1/2021/11/25/GlRzUT.png');"></div>
+          <router-link class="swiper-slide trImg Mwpxv3" to="/two">
+          <div class="bgSwiper GlRzUT"></div>
           </router-link>
         </div>
         <!-- Add Pagination -->
@@ -178,7 +180,7 @@
         <div class="bg-Separate"></div>
     </div>
     <div class="container-fluid bgGIF pt-2 d-flex justify-content-center">
-            
+
               <div class="col-6 text-center pb-5 bg-new">
                 <h1 class="text-white pt-5">新開張!!</h1>
                 <div class="text-white">即日起到 12/31 輸入優惠碼</div>
@@ -187,11 +189,11 @@
                 <router-link to="/customer_order"><button type="button" class="btn btn-info">馬上使用優惠券</button>
             </router-link>
             </div>
-            
-              
+
+
           </div>
     <div class="bg-Separate"></div>
-        
+
         <div class="footerbg d-flex justify-content-center align-items-center">
           <h6 class="text-white">Copyright © Genshin-Impact 2021 | 僅個人作品，無商業用途</h6>
         </div>
@@ -217,12 +219,12 @@ import Swiper from 'swiper';
 
 
 
-  
+
 
 
 export default {
-  
-  
+
+
   data() {
     return {
       products: [],
@@ -240,14 +242,14 @@ export default {
         message: '',
       },
       carts: [],
-      
+
       isLoading: false,
       coupon_code: '',
     };
   },
-  
-  
- 
+
+
+
   methods: {
     getProducts() {
       const vm = this;
@@ -259,7 +261,7 @@ export default {
         vm.isLoading = false;
       });
     },
-     
+
     addtoCart(id, qty = 1) {
       const vm = this;
       const url = `${process.env.APIPATH}/api/${process.env.CUSTOMPATH}/cart`;
@@ -292,7 +294,7 @@ export default {
       this.$http.delete(url).then(() => {
         vm.getCart();
         vm.isLoading = false;
-        
+
       });
     },
     addCouponCode() {
@@ -328,13 +330,13 @@ export default {
         }
       });
     },
-    
+
   },
-  
+
   created() {
     this.getProducts();
     this.getCart();
-    
+
   },
 
 mounted(){
